@@ -224,6 +224,7 @@
         <!--Stripe payment -->
         <!-- <script src="js/jquery.form.js"></script>
         <script src="js/jquery.blockUI.js"></script> -->
+        <!--script below doesnot work as checkout.stripe.com on this particular data key is not opening and is taking a longer to initiate-->
         <script
         src="https://checkout.stripe.com/checkout.js" class="stripe-button"
         data-key="pk_test_srKHaSHynBIVLX03r33xLszb"
@@ -273,7 +274,7 @@
       <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
       <script src="bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.js"></script>
       <script src="bower_components/ui-select/dist/select.js"></script>
-      <!-- endbower -->
+      <!-- endbower    2--   After end bower server stops serving at select.js but it seems like issue of express  -->
       <script src="/components/navbar/bootstrap.min.js"></script>
       <script src="socket.io-client/socket.io.js"></script>
 
