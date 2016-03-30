@@ -8,6 +8,7 @@ Install the following 2 softwares
 
 1.    Node http://nodejs.org/ (Server)
 2.    MongoDB https://www.mongodb.org/ (Database)
+3.    Start mongo db by using this command :  mongod --dbpath path_of_database
 
 # Install
 Run the following commands and the application will start automatically
@@ -15,7 +16,7 @@ Run the following commands and the application will start automatically
 1.    npm install yo -g (Install yeoman for scaffolding web application)
 2.    npm install grunt-cli -g (This creates and runs javascript repetative tasks )
 3.    npm install bower -g ( A frontend package manager for web applications)
-4.    npm install (Install all nodejs dependencies, also automatically installs bower components)
+4.    npm install (Install all nodejs dependencies does not automatically installs bower components)
 5.    grunt serve
 
 # Features
